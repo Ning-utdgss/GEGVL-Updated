@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<!-- TimeSpan is recommended for GroundOverlays -->
+  <Folder>
+    <name>Geonews-2018</name>
+    <description>
+      In Google Earth, enable historical imagery and sunlight,
+      then click on each placemark to fly to that point in time.
+    </description>
+	
+	<Placemark>
+      <name>Hawaii Eruption - May</name>
+      <TimeSpan>
+        <begin>2018-05</begin>
+        <end>2018-06</end>
+      </TimeSpan>
+      <styleUrl>#volcano-icon</styleUrl>
+	  <Point>
+        <coordinates>-155.587958,19.465144,0</coordinates>
+      </Point>
+	  
+	  <Camera>
+        <TimeSpan>
+          <begin>2018-05</begin>
+          <end>2018-06</end>
+        </TimeSpan>
+        <longitude>-155.587958</longitude>
+        <latitude>19.465144</latitude>
+        <altitude>875521.0</altitude>
+        <heading>10.0</heading>
+        <tilt>10.0</tilt>
+      </Camera>
+    </Placemark>
+	
+	<!-- you can use this link to find an easy way to convert latitude and longitude to decimal at here:
+	https://github.com/Ning-utdgss/Simple-Coordinate-System-Transaction-for-GEGVL.git -->
+	
+	<Placemark>
+      <name>Sulawesi Tsunami - Sept</name>
+      <TimeSpan>
+        <begin>2018-09</begin>
+        <end>2018-10</end>
+      </TimeSpan>
+      <styleUrl>#water-icon</styleUrl>
+	  <Point>
+        <coordinates>119.87022777777777,-0.845586111111,0</coordinates>
+      </Point>
+	  
+	  <Camera>
+      <TimeSpan>
+        <begin>2018-09</begin>
+        <end>2018-10</end>
+      </TimeSpan>
+        <longitude>119.87022777777777</longitude>
+        <latitude>-0.845586111111</latitude>
+        <altitude>875521.0</altitude>
+        <heading>10.0</heading>
+        <tilt>10.0</tilt>
+      </Camera>
+    </Placemark>
+	
+
+  </Folder>
+</kml>
